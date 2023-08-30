@@ -1,0 +1,62 @@
+.testimonials {
+  column-gap: 1.25rem;
+  column-count: 3;
+}
+.wrapper {
+  padding: 0px 20px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.card {
+  border: 1px solid #419bc6;
+  padding: 16px 25px 66px;
+}
+
+.imgWrap {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #419bc6;
+  border-radius: 50%;
+  /* margin-top: -50px; */
+}
+
+.imgWrap img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clientName {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.clientText {
+  /* overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7; */
+  /* number of lines to show */
+  /* line-clamp: 7;
+  -webkit-box-orient: vertical; */
+  text-align: center;
+  /* font-style: italic; */
+  font-weight: 300;
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+}

@@ -1,0 +1,41 @@
+.sKimRadim {
+  background-image: url('/team-dos.jpg');
+  background-size: cover;
+  background-position: center right;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-blue);
+  opacity: 0.9;
+  z-index: 0;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+.sKimRadim p {
+  text-align: center;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  width: 80%;
+  margin: 0 auto 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.content {
+  position: relative;
+}
+
+.sKimRadim img {
+  width: 100%;
+}
