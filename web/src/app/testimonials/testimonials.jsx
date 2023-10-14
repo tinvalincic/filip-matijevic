@@ -60,10 +60,11 @@ const testimonials = [
     text: (
       <>
         Zahvalna sam da sam u današnjem svijetu srela osobu za koju smatram da
-        je prije svega "čovjek" a zatim i sve sto jedan trener mora biti
-        profesionalan, psiholog, staložen, strpljiv i pun razumijevanja. uz
+        je prije svega &quot;čovjek&quot; a zatim i sve sto jedan trener mora
+        biti profesionalan, psiholog, staložen, strpljiv i pun razumijevanja. uz
         ovakav tvoj pristup smatram, a i vidim po sebi da su i rezultati
-        neizostavan dio procesa. Hvala ti sto si dio ovog mog "putovanja".
+        neizostavan dio procesa. Hvala ti sto si dio ovog mog
+        &quot;putovanja&quot;.
       </>
     ),
   },
@@ -214,7 +215,7 @@ export const Testimonials = () => (
           infinite={true}
           speed={500}
           autoplaySpeed={5000}
-          autoplay={true}
+          autoplay={false}
           slidesToShow={1}
           slidesToScroll={1}
           nextArrow={<NextArrow />}
