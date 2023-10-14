@@ -1,6 +1,5 @@
 .sKimRadim {
   background-image: url('/banner.jpeg');
-  /* background-image: url('/team-dos.jpg'); */
   background-size: cover;
   background-position: center right;
   background-attachment: fixed;
@@ -39,4 +38,15 @@
 
 .sKimRadim img {
   width: 100%;
+}
+
+@media (max-width: 700px) {
+  .sKimRadim p {
+    width: 100%;
+  }
+
+  .sKimRadim {
+    background-attachment: scroll;
+    background-position: center;
+  }
 }

@@ -215,7 +215,7 @@ export const Testimonials = () => (
           infinite={true}
           speed={500}
           autoplaySpeed={5000}
-          autoplay={false}
+          autoplay={true}
           slidesToShow={1}
           slidesToScroll={1}
           nextArrow={<NextArrow />}
