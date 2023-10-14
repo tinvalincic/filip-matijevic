@@ -82,4 +82,8 @@
     line-height: 1.5rem;
     margin-bottom: 2.6rem;
   }
+
+  .banner {
+    background-attachment: scroll;
+  }
 }
