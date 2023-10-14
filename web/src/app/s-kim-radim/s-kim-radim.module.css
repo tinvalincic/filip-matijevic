@@ -1,5 +1,6 @@
 .sKimRadim {
-  background-image: url('/team-dos.jpg');
+  background-image: url('/banner.jpeg');
+  /* background-image: url('/team-dos.jpg'); */
   background-size: cover;
   background-position: center right;
   background-attachment: fixed;

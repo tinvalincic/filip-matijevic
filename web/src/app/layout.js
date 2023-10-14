@@ -29,14 +29,7 @@ export default function RootLayout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
         />
       </Head>
-      <body
-        className={roboto.className}
-        style={{
-          minWidth: "1024px",
-        }}
-      >
-        {children}
-      </body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

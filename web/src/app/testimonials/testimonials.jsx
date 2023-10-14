@@ -21,7 +21,7 @@ export const PrevArrow = Arrow(styles.prevArrow, "arrow-left");
 const testimonials = [
   {
     name: "Andrej Švenda",
-    image: "andrej-svenda.jpeg",
+    image: "andrej-svenda.jpg",
     text: (
       <>
         Toliko dobrog sam naučio od njega u zadnjih pet godina. Prvenstveno, što
@@ -55,6 +55,19 @@ const testimonials = [
     ),
   },
   {
+    name: "Teuta Jakupović",
+    image: "teuta-jakupovic.jpeg",
+    text: (
+      <>
+        Zahvalna sam da sam u današnjem svijetu srela osobu za koju smatram da
+        je prije svega "čovjek" a zatim i sve sto jedan trener mora biti
+        profesionalan, psiholog, staložen, strpljiv i pun razumijevanja. uz
+        ovakav tvoj pristup smatram, a i vidim po sebi da su i rezultati
+        neizostavan dio procesa. Hvala ti sto si dio ovog mog "putovanja".
+      </>
+    ),
+  },
+  {
     name: "Raul Ivičić",
     image: "raul-ivicic.jpeg",
     text: (
@@ -83,16 +96,6 @@ const testimonials = [
         <br />
         Osobno bih rekao najbolja osoba za trening zbog sličnog mindseta i bez
         razmišljanja najbolji trener u RH za powerlifting.
-      </>
-    ),
-  },
-  {
-    name: "Matej Bašica",
-    image: "matej-basica.jpeg",
-    text: (
-      <>
-        Zadovoljan sam kvalitetom usluge, suradnja je na visokoj razini, savjeti
-        se ne odnose samo na trening nego već i životne situacije.
       </>
     ),
   },
@@ -135,6 +138,34 @@ const testimonials = [
         2015. godine i u tih 7 godina sam mogao primijetit velike promjene u
         njegovim metodama treninga koje su rezultat stalnog ulaganja u svoje
         znanje, i sve većeg iskustva u radu s powerlifterima.
+      </>
+    ),
+  },
+  {
+    name: "Lea Žunić",
+    image: "lea-zunic.jpeg",
+    text: (
+      <>
+        Filipa poznajem gotovo od početka svoje powerlifting karijere. Oduvijek
+        mi je pomogao sa savjetima i uskakao kao pomagač na natjecanju. Od kada
+        surađujem s njim popravila sam tehniku dizanja i uvelike dodala kilažu
+        na šipci. Smatram da Filip ima ogromno znanje i iznad svega iskustvo.
+        Odlično se prilagođava svom klijentu i njegovim potrebama te nije škrt
+        podijeliti svoje znanje sa drugima.
+      </>
+    ),
+  },
+  {
+    name: "Luka Hrgarek",
+    image: "luka-hrgarek.jpeg",
+    text: (
+      <>
+        Općenito sam prezadovoljan coachingom. Od same usluge, komunikacije do
+        napretka. Uvijek mogu iznijeti svoje mišljenje i ciljeve koje mi Filip
+        pomaže ostvariti. Osim odličnog napretka bencha i deadlifta pomogao mi
+        je rehabilitirati ozljedu koljena te vratiti čučanj na uzlaznu putanju.
+        Uspješno smo popunili 93 kg kategoriju i najbitnije od svega, narasli su
+        mi kvadricepsi!
       </>
     ),
   },

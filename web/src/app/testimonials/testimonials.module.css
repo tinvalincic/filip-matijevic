@@ -123,7 +123,36 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+  .subtitle {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
 
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {}
+  .sliderContainer {
+    width: 100%;
+  }
+
+  .testimonial {
+    display: block;
+    width: 100%;
+  }
+
+  .imgWrap {
+    width: 100%;
+    aspect-ratio: 1/1;
+  }
+
+  .wrapper {
+    padding: 0px 10px;
+  }
+
+  .prevArrow,
+  .nextArrow {
+    display: none;
+  }
+
+  .card {
+    padding: 20px 10px;
+  }
+}

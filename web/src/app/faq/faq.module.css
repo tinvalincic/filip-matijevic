@@ -23,8 +23,18 @@
 
 .faqList details p {
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.4rem;
   color: var(--color-text);
   font-weight: 100;
   padding: 0px 20px 20px;
+}
+
+@media (max-width: 700px) {
+  .faqList details {
+    margin: 20px 0px;
+  }
+
+  .faqList summary {
+    font-size: 0.9rem;
+  }
 }

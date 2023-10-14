@@ -5,7 +5,7 @@ const cx = (...classNames) => classNames.join(" ");
 const packages = [
   {
     name: "Standard",
-    price: 70,
+    price: 80,
     included: [
       "Posebno dizajnirani plan treninga na tjednoj bazi",
       "Analiza i korekcija tehnike",
@@ -16,7 +16,7 @@ const packages = [
   },
   {
     name: "Premium",
-    price: 100,
+    price: 120,
     isPremium: true,
     included: [
       "Posebno dizajnirani plan treninga na tjednoj bazi",
@@ -29,8 +29,8 @@ const packages = [
     ],
   },
   {
-    name: "Mjesečni",
-    price: 160,
+    name: "Tromjesečni",
+    price: 190,
     included: [
       "Posebno dizajniran plan treninga za narednih 12 tjedana",
       "Kontakt pozivom svaka 4 tjedna sa izmjenama programa po potrebi",
@@ -40,7 +40,7 @@ const packages = [
   },
 ];
 
-export const Cjenik = () => (
+export const Cjenik = ({ scrollToContact }) => (
   <div className={cx("section", styles.cjenik)}>
     <div className={cx("container", styles.content)}>
       <h2 className={cx("page-title", styles.title)}>
@@ -63,7 +63,10 @@ export const Cjenik = () => (
                 <li key={i}>{i}</li>
               ))}
             </ul>
-            <button className={cx("btn-primary", styles.contactButton)}>
+            <button
+              className={cx("btn-primary", styles.contactButton)}
+              onClick={scrollToContact}
+            >
               Zakaži sastanak
             </button>
           </div>

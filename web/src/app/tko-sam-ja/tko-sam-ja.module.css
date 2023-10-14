@@ -37,5 +37,36 @@
 }
 
 .tkoSamJa img {
+  display: block;
   width: 100%;
+}
+
+.mobileImage {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .desktopImage {
+    display: none;
+  }
+
+  .mobileImage {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .tkoSamJa p,
+  .tkoSamJa p:first-of-type {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    margin-bottom: 1rem;
+  }
 }
